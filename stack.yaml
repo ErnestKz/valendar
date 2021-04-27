@@ -43,7 +43,7 @@ extra-deps:
 - servant-0.16.2
 - QuickCheck-2.13.2
 - aeson-1.4.7.1
-# - base-4.13.0.0
+- base-4.13.0.0
 - Cabal-3.4.0.0
 - array-0.5.4.0
 - binary-0.8.8.0
