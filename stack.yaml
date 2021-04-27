@@ -19,7 +19,7 @@
 # resolver: https://example.com/snapshots/2018-01-01.yaml
 # resolver:
 #   url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/17/9.yaml
-resolver: lts-17.9
+resolver: lts-14.27
 # User packages to be built.
 # Various formats can be used as shown in the example below.
 #
@@ -36,33 +36,10 @@ packages:
 # forks / in-progress versions pinned to a git hash. For example:
 #
 extra-deps:
-- acme-missiles-0.3 # not in the LTS
-- gogol-0.5.0
-- gogol-core-0.5.0
-- gogol-apps-calendar-0.5.0
-- servant-0.16.2
-- QuickCheck-2.13.2
-- aeson-1.4.7.1
-- base-4.13.0.0
-- Cabal-3.4.0.0
-- array-0.5.4.0
-- binary-0.8.8.0
-- bytestring-0.10.12.1
-- containers-0.6.4.1
-- deepseq-1.4.5.0
-- directory-1.3.6.1
-- filepath-1.4.2.1
-- ghc-prim-0.5.3
-- mtl-2.2.2
-- parsec-3.1.14.0
-- process-1.6.11.0
-- stm-2.5.0.0
-- text-1.2.4.1
-- time-1.10
-- transformers-0.5.6.2
-- unix-2.7.2.2
-- pretty-1.1.3.6
-
+- acme-missiles-0.3@sha256:2ba66a092a32593880a87fb00f3213762d7bca65a687d45965778deb8694c5d1,613
+- gogol-0.5.0@sha256:01b38acf97ae0afb2465935fee1bebce03c1b84e629cf0887467be7ae361f0a7,3222
+- gogol-apps-calendar-0.5.0@sha256:7c02f3b58e832037f0ef5efd6ecf62529e0628699d1661cdf1bce0a7c879a234,3550
+- gogol-core-0.5.0@sha256:c0a919cd89a33de7fd6ee925abdb48b0eb5d1002a016124acbdff568f267e4c7,2821
 # - git: https://github.com/commercialhaskell/stack.git
 #   commit: e7b331f14bcffb8367cd58fbfc8b40ec7642100a
 #
@@ -91,3 +68,7 @@ extra-deps:
 #
 # Allow a newer minor version of GHC than the snapshot specifies
 # compiler-check: newer-minor
+
+nix:
+  enable: true
+  packages: [ zlib ]
