@@ -10,28 +10,35 @@ packages:
       size: 226
       sha256: 614bc0cca76937507ea0a5ccc17a504c997ce458d7f2f9e43b15a10c8eaeb033
   original:
-    hackage: acme-missiles-0.3@sha256:2ba66a092a32593880a87fb00f3213762d7bca65a687d45965778deb8694c5d1,613
+    hackage: acme-missiles-0.3
 - completed:
     hackage: gogol-0.5.0@sha256:01b38acf97ae0afb2465935fee1bebce03c1b84e629cf0887467be7ae361f0a7,3222
     pantry-tree:
       size: 1243
       sha256: ab472e169f12b97837cdfca2262b2d6fb569ae17876cbc10e97186944a401866
   original:
-    hackage: gogol-0.5.0@sha256:01b38acf97ae0afb2465935fee1bebce03c1b84e629cf0887467be7ae361f0a7,3222
+    hackage: gogol-0.5.0
 - completed:
     hackage: gogol-apps-calendar-0.5.0@sha256:7c02f3b58e832037f0ef5efd6ecf62529e0628699d1661cdf1bce0a7c879a234,3550
     pantry-tree:
       size: 4091
       sha256: ff2d575724ed9f39e1aaaecfc8eec711b3c3a21c31f9d941f224335d98a98559
   original:
-    hackage: gogol-apps-calendar-0.5.0@sha256:7c02f3b58e832037f0ef5efd6ecf62529e0628699d1661cdf1bce0a7c879a234,3550
+    hackage: gogol-apps-calendar-0.5.0
 - completed:
     hackage: gogol-core-0.5.0@sha256:c0a919cd89a33de7fd6ee925abdb48b0eb5d1002a016124acbdff568f267e4c7,2821
     pantry-tree:
       size: 686
       sha256: f3c803da46a2df6987b72098b3e7c6c2c0aeb141335d2a0d5630b210401bc2c8
   original:
-    hackage: gogol-core-0.5.0@sha256:c0a919cd89a33de7fd6ee925abdb48b0eb5d1002a016124acbdff568f267e4c7,2821
+    hackage: gogol-core-0.5.0
+- completed:
+    hackage: gogol-sheets-0.5.0@sha256:a1235526682b8f2ecb1fd97f918fd0f8c11ef97a81cfd631529d622de308f7ce,2594
+    pantry-tree:
+      size: 2409
+      sha256: 00bc725884a1e6516ac92b2862fe643898022ce4feb295072e4bb0f8771815c3
+  original:
+    hackage: gogol-sheets-0.5.0
 snapshots:
 - completed:
     size: 524996

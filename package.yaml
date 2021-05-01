@@ -20,15 +20,17 @@ extra-source-files:
 description:         Please see the README on GitHub at <https://github.com/githubuser/valendar#readme>
 
 dependencies:
-- base >= 4.13 && < 4.14
+- base
 - text
 - filepath
 - containers
 - acme-missiles
-# - servant < 0.17
+- lens
 - gogol-apps-calendar
 - gogol-core
 - gogol
+- aeson
+- gogol-sheets
 
 library:
   source-dirs: src
